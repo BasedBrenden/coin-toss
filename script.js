@@ -4,6 +4,7 @@ const choiceFeed = document.getElementById('feed')
 const buttons = document.querySelectorAll("button")
 const cScore = document.getElementById('cScore')
 const uScore = document.getElementById('uScore')
+const title = document.getElementById('outcome')
 
 buttons.forEach (function (button){
 button.addEventListener('click',function(e){
